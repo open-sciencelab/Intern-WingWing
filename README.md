@@ -1,12 +1,26 @@
-# AFBench: A Large-scale Benchmark for Airfoil Design 🚀
+# AFBench 🚀
 
-## 👀Introduction
+AFBench: A Large-scale Benchmark for Airfoil Design
 
-This repository contains the training/evaluate code and data for our paper [AFBench: A Large-scale Benchmark for Airfoil Design](https://arxiv.org/abs/2406.18846).
+![](Figure/airfoil-demo.png)
+
 
 - **For airfoil generation and editing demo, check [airfoil-demo](https://github.com/hitcslj/airfoil-demo) repo.**
 
 - **For more airfoil design paper, check [awesome-airfoil-design](https://github.com/hitcslj/awesome-airfoil-design) repo.**
+
+## [Project page](https://hitcslj.github.io/afbench/) | [Paper](https://arxiv.org/abs/2406.18846) | [Live Demo]()
+
+- [x] Training data.
+- [x] baselins models.
+- [ ]  Evaluation code.
+- [ ]  Training code.
+- [ ] Pretrain weights.
+
+## News
+- 2024-07-05: The Wing-Wing Aircraft Wing Generation System makes its debut at WAIC 2024.
+
+
 
 ## 📚 Dataset
 
