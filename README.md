@@ -13,7 +13,7 @@ AFBench: A Large-scale Benchmark for Airfoil Design
 
 - [x] Training data.
 - [x] baselins models.
-- [ ] Evaluation code.
+- [x] Evaluation code.
 - [ ] Training code.
 - [ ] Pretrain weights.
 - [ ] gradio demo codes.
@@ -68,29 +68,8 @@ AFBench
 ### Usage
 
 ```
-usage: evaluate.py [-h] [-n NMODEL] [-w WEIGHT] [-t TASK] [-s SCORE] model
-
-positional arguments:
-  model                 The model you want to evaluate, choose between CVAE, CGAN, PKVAE, PKGAN, PKVAE-GAN, PK-DIFF, PK-DIT
-
-optional arguments:
-  -h, --help            show this help message and exit
-  -n NMODEL, --nmodel NMODEL
-                        Number of trained models for standard deviation estimation (default: 1)
-  -w WEIGHT, --weight WEIGHT
-                        Weight in front of the surface loss (default: 1)
-  -t TASK, --task TASK  Task to train on. Choose between "full", "scarce", "reynolds" and "aoa"
-                        (default: full)
-  -s SCORE, --score SCORE
-                        If you want to compute the score of the models on the associated test set.
-                        (default: 0)
+usage: python evaluate.py
 ```
-
-For example, if you want to evaluate the performance of the vae:
-```
-python evaluate.py vae -t scarce -n 2 -s 1
-```
-
 
 
 ## 📈 Benchmark and Baseline
