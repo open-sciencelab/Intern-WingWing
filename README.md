@@ -14,7 +14,7 @@ AFBench: A Large-scale Benchmark for Airfoil Design
 - [x] Training data.
 - [x] baselins models.
 - [x] Evaluation code.
-- [ ] Training code.
+- [x] Training code.
 - [ ] Pretrain weights.
 - [ ] gradio demo codes.
 
