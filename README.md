@@ -14,11 +14,13 @@ AFBench: A Large-scale Benchmark for Airfoil Design
 - [x] Training data.
 - [x] baselins models.
 - [x] Evaluation code.
+- [ ] DataGen methods.
 - [ ] Training code.
 - [ ] Pretrain weights.
 - [ ] gradio demo codes.
 
 ## News
+- 2024-09-26: The AFBench has been accepted by NeurIPS 2024 dataset and benchmark track.
 - 2024-07-05: The Wing-Wing Aircraft Wing Generation System makes its debut at WAIC 2024.
 
 
